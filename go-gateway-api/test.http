@@ -1,6 +1,6 @@
 ### Variáveis globais
 @baseUrl = http://localhost:8080
-@apiKey = {{createAccount.response.body.api_key}}
+@apiKey = {{ createAccount.response.body.api_key }}
 
 ### Criar uma nova conta
 # @name createAccount
@@ -9,7 +9,7 @@ Content-Type: application/json
 
 {
     "name": "John Doe",
-    "email": "john@doewvs.com"
+    "email": "john4@doewvs.com"
 }
 
 ### Obter dados da conta
@@ -35,7 +35,7 @@ X-API-Key: {{apiKey}}
 }
 
 ### Obter uma fatura específica
-@invoiceId = {{createInvoice.response.body.id}}
+@invoiceId = {{ createInvoice.response.body.id }}
 GET {{baseUrl}}/invoice/{{invoiceId}}
 X-API-Key: {{apiKey}}
 
