@@ -13,7 +13,7 @@ interface InvoiceDetailsPage {
 
 export default function InvoiceDetailsPage({ params }: InvoiceDetailsPage) {
   // Normalmente, você buscaria os dados da fatura com base no ID
-  const invoiceId = params.id
+  const invoiceId = params.id;
 
   return (
     <div className="min-h-screen flex flex-col bg-navy">

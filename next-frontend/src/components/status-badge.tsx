@@ -8,15 +8,15 @@ interface StatusBadgeProps {
 
 const statusConfig = {
   approved: {
-    label: "Aprovado",
+    label: "Approved",
     className: "bg-green-100 text-green-800 border-green-200",
   },
   pending: {
-    label: "Pendente",
+    label: "Pending",
     className: "bg-amber-100 text-amber-800 border-amber-200",
   },
   rejected: {
-    label: "Rejeitado",
+    label: "Rejected",
     className: "bg-red-100 text-red-800 border-red-200",
   },
 }
