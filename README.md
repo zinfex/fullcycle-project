@@ -1,4 +1,4 @@
-# 🏦 Gateway de Pagamento - Imersão Full Cycle
+# Gateway de Pagamento - Imersão Full Cycle
 
 ## 📋 Sobre o Projeto
 
